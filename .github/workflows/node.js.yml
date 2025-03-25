@@ -19,6 +19,7 @@ jobs:
       with:
         node-version: 22
         cache: 'npm'
+    - run: cd Atividade01
     - run: npm install      
     - run: npm run coverage
 
