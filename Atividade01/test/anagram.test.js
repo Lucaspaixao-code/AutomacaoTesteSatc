@@ -5,5 +5,5 @@ test("Validando anagrama válido", async () => {
 });
 
 test("Validando anagrama inválido", async () => {
-  expect(isAnagram("satc", "teste")).toBeFalsy();
+  expect(isAnagram("satc", "testee")).toBeFalsy();
 });
